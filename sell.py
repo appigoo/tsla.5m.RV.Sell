@@ -351,7 +351,7 @@ all_signal_types = [
 selected_signals = st.multiselect(
     "选择哪些信号需要推送Telegram",
     all_signal_types,
-    default=["📈 連續向上買入","📉 SMA50下降趨勢","📉 EMA-SMA Downtrend Sell","📈 新买入信号"]
+    default=["📈 SMA50上升趨勢", "📈 SMA50_200上升趨勢", "📈 EMA-SMA Uptrend Buy", "📉 烏雲蓋頂"]
 )
 
 
